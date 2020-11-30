@@ -10,19 +10,19 @@ The design comes from [Afterglow](https://dribbble.com/Afterglow-studio) on [Dri
 
 ### Large Device
 
-![Image on Large Device](https://raw.githubusercontent.com/DylanDirlam/design-to-tailwind/01-banking-dashboard/screenshots/01-large.png)
+![Image on Large Device](https://raw.githubusercontent.com/DylanDirlam/design-to-tailwind/main/01-banking-dashboard/screenshots/01-large.png)
 
 ### Medium Device
 
-![Image on Large Device](https://raw.githubusercontent.com/DylanDirlam/design-to-tailwind/01-banking-dashboard/screenshots/02-medium.png)
+![Image on Large Device](https://raw.githubusercontent.com/DylanDirlam/design-to-tailwind/main/01-banking-dashboard/screenshots/02-medium.png)
 
 ### Small Device
 
-![Image on Large Device](https://raw.githubusercontent.com/DylanDirlam/design-to-tailwind/01-banking-dashboard/screenshots/03-small.png)
+![Image on Large Device](https://raw.githubusercontent.com/DylanDirlam/design-to-tailwind/main/01-banking-dashboard/screenshots/03-small.png)
 
 ### Extra Small Device
 
-![Image on Large Device](https://raw.githubusercontent.com/DylanDirlam/design-to-tailwind/01-banking-dashboard/screenshots/04-extra-small.png)
+![Image on Large Device](https://raw.githubusercontent.com/DylanDirlam/design-to-tailwind/main/01-banking-dashboard/screenshots/04-extra-small.png)
 
 ## Resources
 
