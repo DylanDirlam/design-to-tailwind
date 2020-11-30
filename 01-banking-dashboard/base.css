@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.zoom {
+  transition: 0.2s;
+}
+.zoom:hover {
+  transform: scale(1.05);
+}
+.rotate {
+  transition: 0.2s;
+}
+.rotate:hover {
+  transform: rotate(-1deg);
+}
+.zoom-rotate {
+  transition: 0.2s;
+}
+.zoom-rotate:hover {
+  transform: rotate(-1deg) scale(1.05);
+}
+.border-gray-gradient {
+  border-image: radial-gradient(rgb(225 225 225), rgb(255 255 255)) 1;
+}
+.card-number {
+  word-spacing: 0.5rem;
+}
