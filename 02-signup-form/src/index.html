@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>02 - Signup Form</title>
+    <link href="css/tailwind.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-body bg-yellow-50">
+    <div
+      class="container mx-auto flex flex-col md:flex-row bg-white rounded-2xl mt-12 overflow-hidden shadow"
+    >
+      <div class="w-full h-32 md:h-auto md:w-2/5 bg-yellow-400">
+        <img
+          src="images/living-room.svg"
+          class="w-full h-full p-6 xl:px-24 md:py-24"
+        />
+      </div>
+      <div class="w-full md:w-3/5 px-12 py-6">
+        <div class="flex flex-col lg:flex-row items-center">
+          <div
+            class="text-orange-900 font-bold text-2xl flex items-center flex-grow pr-6"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              class="w-8 h-8 mr-1"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M13 10V3L4 14h7v7l9-11h-7z"
+              />
+            </svg>
+            nirvanna
+          </div>
+          <div class="text-sm text-gray-400 pt-2 lg:pt-0">
+            Already have an account?
+            <a
+              href="#"
+              class="text-yellow-400 underline hover:text-yellow-700 font-semibold"
+              >Sign In.</a
+            >
+          </div>
+        </div>
+        <h1
+          class="text-center md:text-left mt-6 md:mt-16 text-yellow-400 font-bold text-3xl md:text-6xl tracking-tighter"
+        >
+          Sign Up For Free.
+        </h1>
+        <h2
+          class="text-center md:text-left mt-1 md:mt-6 text-orange-900 text-lg md:text-2xl tracking-tight"
+        >
+          Find balance in your mind.
+        </h2>
+        <form class="mt-4 md:mt-12">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div class="focus-within:text-yellow-400">
+              <label for="username" class="font-semibold text-sm"
+                >Username</label
+              >
+              <input
+                type="text"
+                id="username"
+                name="username"
+                class="rounded-lg border-2 focus:text-yellow-600 border-gray-400 focus:border-yellow-400 placeholder-gray-300 focus:placeholder-yellow-400 focus:outline-none px-4 py-3 mt-1 text-xs w-full"
+                placeholder="Enter username ..."
+              />
+            </div>
+            <div class="focus-within:text-yellow-400">
+              <label for="fullname" class="font-semibold text-sm"
+                >Full Name</label
+              >
+              <input
+                type="text"
+                id="fullname"
+                name="fullname"
+                class="rounded-lg border-2 focus:text-yellow-600 border-gray-400 focus:border-yellow-400 placeholder-gray-300 focus:placeholder-yellow-400 focus:outline-none px-4 py-3 mt-1 text-xs w-full"
+                placeholder="Enter full name ..."
+              />
+            </div>
+            <div class="focus-within:text-yellow-400">
+              <label for="email" class="font-semibold text-sm"
+                >Email Address</label
+              >
+              <input
+                type="text"
+                id="email"
+                name="email"
+                class="rounded-lg border-2 focus:text-yellow-600 border-gray-400 focus:border-yellow-400 placeholder-gray-300 focus:placeholder-yellow-400 focus:outline-none px-4 py-3 mt-1 text-xs w-full"
+                placeholder="Enter email address ..."
+              />
+            </div>
+            <div class="focus-within:text-yellow-400">
+              <label for="password" class="font-semibold text-sm"
+                >Password</label
+              >
+              <input
+                type="password"
+                id="password"
+                name="password"
+                class="rounded-lg border-2 focus:text-yellow-600 border-gray-400 focus:border-yellow-400 placeholder-gray-300 focus:placeholder-yellow-400 focus:outline-none px-4 py-3 mt-1 text-xs w-full"
+                placeholder="Enter password ..."
+              />
+            </div>
+          </div>
+          <div class="flex items-center mt-8">
+            <input
+              type="checkbox"
+              id="terms"
+              name="terms"
+              class="appearance-none h-5 w-5 border-2 border-gray-400 rounded-md checked:bg-yellow-400 checked:border-transparent focus:outline-none overflow-hidden mr-4 cursor-pointer"
+            />
+            <label for="terms" class="italic text-gray-400 text-sm"
+              >I accept the
+              <a href="#" class="underline">Terms and Conditions</a> and agree
+              to the terms of the
+              <a href="#" class="underline">Privacy Policy.</a></label
+            >
+          </div>
+          <button
+            class="mt-8 px-16 py-4 bg-yellow-400 uppercase tracking-wide font-bold text-white rounded-full hover:bg-yellow-500"
+          >
+            Sign Up
+          </button>
+        </form>
+        <div
+          class="mt-6 md:mt-16 uppercase text-gray-200 text-xs flex items-center"
+        >
+          <div class="mr-8 font-bold tracking-wide">Or Sign In with:</div>
+          <svg
+            fill="#ffffff"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            class="w-8 h-8 bg-gray-300 hover:bg-yellow-400 rounded-full p-1 mr-6 cursor-pointer"
+          >
+            <path
+              d="M22,3.999c-0.78,0.463-2.345,1.094-3.265,1.276c-0.027,0.007-0.049,0.016-0.075,0.023c-0.813-0.802-1.927-1.299-3.16-1.299 c-2.485,0-4.5,2.015-4.5,4.5c0,0.131-0.011,0.372,0,0.5c-3.353,0-5.905-1.756-7.735-4c-0.199,0.5-0.286,1.29-0.286,2.032 c0,1.401,1.095,2.777,2.8,3.63c-0.314,0.081-0.66,0.139-1.02,0.139c-0.581,0-1.196-0.153-1.759-0.617c0,0.017,0,0.033,0,0.051 c0,1.958,2.078,3.291,3.926,3.662c-0.375,0.221-1.131,0.243-1.5,0.243c-0.26,0-1.18-0.119-1.426-0.165 c0.514,1.605,2.368,2.507,4.135,2.539c-1.382,1.084-2.341,1.486-5.171,1.486H2C3.788,19.145,6.065,20,8.347,20 C15.777,20,20,14.337,20,8.999c0-0.086-0.002-0.266-0.005-0.447C19.995,8.534,20,8.517,20,8.499c0-0.027-0.008-0.053-0.008-0.08 c-0.003-0.136-0.006-0.263-0.009-0.329c0.79-0.57,1.475-1.281,2.017-2.091c-0.725,0.322-1.503,0.538-2.32,0.636 C20.514,6.135,21.699,4.943,22,3.999z"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 310 310"
+            fill="#ffffff"
+            class="w-8 h-8 bg-gray-300 hover:bg-yellow-400 rounded-full p-1 mr-6 cursor-pointer"
+          >
+            <path
+              d="M81.703,165.106h33.981V305c0,2.762,2.238,5,5,5h57.616c2.762,0,5-2.238,5-5V165.765h39.064
+              c2.54,0,4.677-1.906,4.967-4.429l5.933-51.502c0.163-1.417-0.286-2.836-1.234-3.899c-0.949-1.064-2.307-1.673-3.732-1.673h-44.996
+              V71.978c0-9.732,5.24-14.667,15.576-14.667c1.473,0,29.42,0,29.42,0c2.762,0,5-2.239,5-5V5.037c0-2.762-2.238-5-5-5h-40.545
+              C187.467,0.023,186.832,0,185.896,0c-7.035,0-31.488,1.381-50.804,19.151c-21.402,19.692-18.427,43.27-17.716,47.358v37.752H81.703
+              c-2.762,0-5,2.238-5,5v50.844C76.703,162.867,78.941,165.106,81.703,165.106z"
+            />
+          </svg>
+          <svg
+            fill="#ffffff"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 50 50"
+            class="w-8 h-8 bg-gray-300 hover:bg-yellow-400 rounded-full p-1 cursor-pointer"
+          >
+            <path
+              d="M 17.1875 10.9375 C 9.421875 10.9375 3.125 17.234375 3.125 25 C 3.125 32.765625 9.421875 39.0625 17.1875 39.0625 C 24.953125 39.0625 31.25 32.765625 31.25 25 C 31.25 24.035156 31.144531 23.09375 30.960938 22.1875 L 30.882813 21.875 L 17.1875 21.875 L 17.1875 26.5625 L 26.5625 26.5625 C 25.816406 30.996094 21.832031 34.375 17.1875 34.375 C 12.007813 34.375 7.8125 30.179688 7.8125 25 C 7.8125 19.820313 12.007813 15.625 17.1875 15.625 C 19.53125 15.625 21.667969 16.492188 23.3125 17.914063 L 26.671875 14.625 C 24.171875 12.335938 20.84375 10.9375 17.1875 10.9375 Z M 39.0625 17.1875 L 39.0625 21.875 L 34.375 21.875 L 34.375 25 L 39.0625 25 L 39.0625 29.6875 L 42.1875 29.6875 L 42.1875 25 L 46.875 25 L 46.875 21.875 L 42.1875 21.875 L 42.1875 17.1875 Z"
+            ></path>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
